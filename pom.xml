@@ -32,9 +32,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache</groupId>
-			<artifactId>kafka_2.9.2</artifactId>
-			<version>0.8-SNAPSHOT</version>
+			<groupId>org.apache.kafka</groupId>
+			<artifactId>kafka_2.8.0</artifactId>
+			<version>0.8.0-beta1</version>
 			<exclusions>
 				<exclusion>
 					<groupId>com.sun.jmx</groupId>
