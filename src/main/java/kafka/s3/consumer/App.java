@@ -108,13 +108,13 @@ public class App {
 
 			logger.debug("Zookeeper connect string {}",
 					conf.getString(PropertyConfiguration.ZK_CONNECT_STRING));
-			props.put("zk.connect",
+			props.put("zookeeper.connect",
 					conf.getString(PropertyConfiguration.ZK_CONNECT_STRING));
 			props.put("group.id",
 					conf.getString(PropertyConfiguration.CONSUMER_GROUP_ID));
-			props.put("zk.sessiontimeout.ms",
+			props.put("zookeeper.sessiontimeout.ms",
 					conf.getString(PropertyConfiguration.ZK_SESSION_TIMEOUT));
-			props.put("zk.synctime.ms", 
+			props.put("zookeeper.synctime.ms", 
 					conf.getString(PropertyConfiguration.ZK_SYNC_TIME));
 			props.put("auto.commit.enable", "false");
 
